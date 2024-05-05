@@ -1,6 +1,7 @@
 # Stock_Prediction_Python
 
 Implementation of the Strategies
+
 SMA: We're going to use a very simple indicator first, which is the Simple Moving Averages; the concept for the same is very simple, we take an average of the Close Prices for a certain period to smoothen the trend & depict the general direction of the trend flow.
 We have two SMA's, one for a short period; the other is for a long period. We've written a simple function to Buy when the Short MA is more than the long one & Sell when the Long MA is more than the Short one. 
 
